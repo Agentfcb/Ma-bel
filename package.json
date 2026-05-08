@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Agent47b.github.io/Ma-bel/",
+  "homepage": "https://Agentfcb.github.io/Ma-bel/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -16,6 +16,7 @@
     "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
+    "@types/node": "^25.6.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
