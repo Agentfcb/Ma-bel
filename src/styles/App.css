@@ -838,3 +838,427 @@
   color: #4a4035;
   text-align: left; 
 }
+
+/* ===== ABOUT PAGE ===== */
+.about-page {
+  padding-bottom: 40px;
+}
+
+.about-intro {
+  padding: 40px 0;
+  background: #faf9f6;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-text {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4a4035;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+}
+
+.about-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin: 30px 0 15px;
+  text-decoration: underline;
+}
+
+.about-list {
+  margin: 20px 0 20px 30px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  color: #4a4035;
+}
+
+.about-note {
+  background: #f5f0ea;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #7F5539;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+/* Преимущества */
+.about-advantages {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.about-advantages .section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 50px;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.advantage-card {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.advantage-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  border: 3px solid #7F5539;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  background: #faf9f6;
+}
+
+.advantage-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #4a4035;
+  font-weight: 500;
+}
+
+/* CTA блок */
+.about-cta {
+  padding: 40px 0;
+  background: #f5f0ea;
+  border-top: 2px solid #e0d6c8;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.cta-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #7F5539;
+  margin-bottom: 10px;
+}
+
+.cta-text p {
+  font-size: 15px;
+  color: #5a5a5a;
+}
+
+.cta-phone {
+  text-align: right;
+}
+
+.phone-hours {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-bottom: 5px;
+}
+
+.phone-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: #7F5539;
+  text-decoration: none;
+  display: block;
+}
+
+.phone-number:hover {
+  color: #5a3a2a;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .advantages-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .cta-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cta-phone {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .advantages-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .advantage-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+  }
+}
+
+/* ===== INFO PAGES ===== */
+.info-page {
+  padding: 40px 0;
+  min-height: 60vh;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin: 40px 0 25px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #E3D5CA;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.info-card {
+  background: #faf9f6;
+  padding: 30px;
+  border-radius: 16px;
+  border: 2px solid #EAE7E7;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  border-color: #7F5539;
+}
+
+.info-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.info-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 12px;
+}
+
+.info-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #5a5a5a;
+}
+
+/* Price List */
+.price-list {
+  background: #faf9f6;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e0d6c8;
+}
+
+.price-item:last-child {
+  border-bottom: none;
+}
+
+.price-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4a4035;
+}
+
+.price-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #7F5539;
+}
+
+/* Assembly Features */
+.assembly-intro {
+  background: #E3D5CA;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.assembly-intro p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4a4035;
+  margin: 0;
+}
+
+.assembly-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.feature-box {
+  background: #faf9f6;
+  padding: 24px;
+  border-radius: 12px;
+  border: 2px solid #EAE7E7;
+}
+
+.feature-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 16px;
+}
+
+.feature-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.feature-box li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #5a5a5a;
+  line-height: 1.6;
+}
+
+/* Guarantees */
+.guarantees-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.guarantee-section {
+  background: #faf9f6;
+  padding: 30px;
+  border-radius: 16px;
+  border: 2px solid #EAE7E7;
+  text-align: left; /* Выравнивание текста влево */
+}
+
+.guarantee-icon {
+  margin-bottom: 16px;
+  /* Размер иконки */
+  width: 64px;
+  height: 64px;
+}
+
+.guarantee-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.guarantee-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 16px;
+}
+
+.guarantee-section p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #5a5a5a;
+  margin-bottom: 16px;
+}
+
+.guarantee-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.guarantee-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #4a4035;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  .guarantees-content {
+    grid-template-columns: 1fr;
+  }
+}
+/* Info Note */
+.info-note {
+  background: #E6CCB2;
+  padding: 20px 24px;
+  border-radius: 12px;
+  border-left: 4px solid #7F5539;
+}
+
+.info-note p {
+  margin: 0;
+  font-size: 15px;
+  color: #4a4035;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .assembly-features {
+    grid-template-columns: 1fr;
+  }
+  
+  .guarantees-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .price-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+/* ===== PAYMENT ICONS ===== */
+.info-icon {
+  height: 80px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.info-icon img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

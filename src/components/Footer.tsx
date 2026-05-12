@@ -5,10 +5,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="container">
-        {/* Сюда вставляются колонки из другого файла */}
+        
         <FooterColumns />
 
-        {/* Блок соцсетей */}
+    
         <div className="footer-social">
           <p>Следите за обновлениями:</p>
           <div className="social-btns">
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Самый низ: копирайт и ссылки */}
+   
         <div className="footer-bottom">
           <p className="copyright">© 2026 MABELE.ru — Интернет-магазин мебели</p>
           <div className="footer-links">
